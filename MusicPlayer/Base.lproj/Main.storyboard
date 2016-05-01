@@ -1,25 +1,81 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MusicPlayer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="Dtx-43-3Ne"/>
+                        <viewControllerLayoutGuide type="bottom" id="5v8-bF-GJJ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Music Player" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6b4-Mv-txg">
+                                <rect key="frame" x="112" y="20" width="97" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="duv-Rj-8Ii">
+                                <rect key="frame" x="0.0" y="49" width="320" height="216"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="mbW-zD-jQ3"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="sIY-uX-Web"/>
+                                </connections>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y1T-30-zRi">
+                                <rect key="frame" x="40" y="273" width="240" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g9e-YM-O1i">
+                                <rect key="frame" x="80" y="302" width="160" height="160"/>
+                            </imageView>
+                            <slider opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="NbU-ZN-U4D">
+                                <rect key="frame" x="102" y="530" width="118" height="31"/>
+                                <connections>
+                                    <action selector="volumen:" destination="BYZ-38-t0r" eventType="valueChanged" id="hOy-On-7kB"/>
+                                </connections>
+                            </slider>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="1" translatesAutoresizingMaskIntoConstraints="NO" id="2dx-X8-1CX">
+                                <rect key="frame" x="83" y="500" width="155" height="29"/>
+                                <segments>
+                                    <segment title="Pause"/>
+                                    <segment title="Play"/>
+                                    <segment title="Pause"/>
+                                </segments>
+                                <connections>
+                                    <action selector="controlPlayer:" destination="BYZ-38-t0r" eventType="valueChanged" id="hNl-Ni-Gph"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Y1T-30-zRi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HPA-6v-Yem"/>
+                            <constraint firstItem="duv-Rj-8Ii" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Hvo-jL-1dT"/>
+                            <constraint firstItem="6b4-Mv-txg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QRp-dw-bjB"/>
+                            <constraint firstItem="g9e-YM-O1i" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eO2-r6-gE1"/>
+                            <constraint firstItem="NbU-ZN-U4D" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rLd-Q5-haP"/>
+                            <constraint firstItem="2dx-X8-1CX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tha-Ec-hkT"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="controlVolumen" destination="NbU-ZN-U4D" id="IeF-DV-Q1Y"/>
+                        <outlet property="mostrarCaratula" destination="g9e-YM-O1i" id="4gq-05-BHk"/>
+                        <outlet property="mostrarTitulo" destination="Y1T-30-zRi" id="477-S5-ea9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="153" y="284"/>
         </scene>
     </scenes>
 </document>

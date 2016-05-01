@@ -14,6 +14,18 @@
 		047D329B1CD2E1E4002D91CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047D32991CD2E1E4002D91CD /* LaunchScreen.storyboard */; };
 		047D32A61CD2E1E4002D91CD /* MusicPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D32A51CD2E1E4002D91CD /* MusicPlayerTests.swift */; };
 		047D32B11CD2E1E4002D91CD /* MusicPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D32B01CD2E1E4002D91CD /* MusicPlayerUITests.swift */; };
+		047D32BF1CD2F2DB002D91CD /* Elvis - Hound Dog.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 047D32BE1CD2F2DB002D91CD /* Elvis - Hound Dog.mp3 */; };
+		047D32C11CD2F2E0002D91CD /* Frank - Theme from New York, New York.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 047D32C01CD2F2E0002D91CD /* Frank - Theme from New York, New York.mp3 */; };
+		047D32C31CD2F2EE002D91CD /* Luciano - La donna è mobile.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 047D32C21CD2F2EE002D91CD /* Luciano - La donna è mobile.mp3 */; };
+		047D32C51CD2F2F3002D91CD /* Michael - Thriller.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 047D32C41CD2F2F3002D91CD /* Michael - Thriller.mp3 */; };
+		047D32C71CD2F2F7002D91CD /* Queen - We Will Rock You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 047D32C61CD2F2F7002D91CD /* Queen - We Will Rock You.mp3 */; };
+		047D32C91CD2F2FC002D91CD /* Zaz - Paris Sera Toujours Paris.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 047D32C81CD2F2FC002D91CD /* Zaz - Paris Sera Toujours Paris.mp3 */; };
+		047D32CB1CD2F31C002D91CD /* Elvis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047D32CA1CD2F31C002D91CD /* Elvis.jpg */; };
+		047D32CD1CD2F320002D91CD /* Frank.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047D32CC1CD2F320002D91CD /* Frank.jpg */; };
+		047D32CF1CD2F326002D91CD /* Luciano.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047D32CE1CD2F326002D91CD /* Luciano.jpg */; };
+		047D32D11CD2F32C002D91CD /* Michael.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047D32D01CD2F32C002D91CD /* Michael.jpg */; };
+		047D32D31CD2F332002D91CD /* Queen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047D32D21CD2F332002D91CD /* Queen.jpg */; };
+		047D32D51CD2F337002D91CD /* Zaz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047D32D41CD2F337002D91CD /* Zaz.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +59,18 @@
 		047D32AC1CD2E1E4002D91CD /* MusicPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		047D32B01CD2E1E4002D91CD /* MusicPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerUITests.swift; sourceTree = "<group>"; };
 		047D32B21CD2E1E4002D91CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047D32BE1CD2F2DB002D91CD /* Elvis - Hound Dog.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Elvis - Hound Dog.mp3"; sourceTree = "<group>"; };
+		047D32C01CD2F2E0002D91CD /* Frank - Theme from New York, New York.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Frank - Theme from New York, New York.mp3"; sourceTree = "<group>"; };
+		047D32C21CD2F2EE002D91CD /* Luciano - La donna è mobile.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Luciano - La donna è mobile.mp3"; sourceTree = "<group>"; };
+		047D32C41CD2F2F3002D91CD /* Michael - Thriller.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Michael - Thriller.mp3"; sourceTree = "<group>"; };
+		047D32C61CD2F2F7002D91CD /* Queen - We Will Rock You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Queen - We Will Rock You.mp3"; sourceTree = "<group>"; };
+		047D32C81CD2F2FC002D91CD /* Zaz - Paris Sera Toujours Paris.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Zaz - Paris Sera Toujours Paris.mp3"; sourceTree = "<group>"; };
+		047D32CA1CD2F31C002D91CD /* Elvis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Elvis.jpg; sourceTree = "<group>"; };
+		047D32CC1CD2F320002D91CD /* Frank.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Frank.jpg; sourceTree = "<group>"; };
+		047D32CE1CD2F326002D91CD /* Luciano.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Luciano.jpg; sourceTree = "<group>"; };
+		047D32D01CD2F32C002D91CD /* Michael.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Michael.jpg; sourceTree = "<group>"; };
+		047D32D21CD2F332002D91CD /* Queen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Queen.jpg; sourceTree = "<group>"; };
+		047D32D41CD2F337002D91CD /* Zaz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zaz.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +127,18 @@
 				047D32971CD2E1E4002D91CD /* Assets.xcassets */,
 				047D32991CD2E1E4002D91CD /* LaunchScreen.storyboard */,
 				047D329C1CD2E1E4002D91CD /* Info.plist */,
+				047D32BE1CD2F2DB002D91CD /* Elvis - Hound Dog.mp3 */,
+				047D32CA1CD2F31C002D91CD /* Elvis.jpg */,
+				047D32C01CD2F2E0002D91CD /* Frank - Theme from New York, New York.mp3 */,
+				047D32CC1CD2F320002D91CD /* Frank.jpg */,
+				047D32C21CD2F2EE002D91CD /* Luciano - La donna è mobile.mp3 */,
+				047D32CE1CD2F326002D91CD /* Luciano.jpg */,
+				047D32C41CD2F2F3002D91CD /* Michael - Thriller.mp3 */,
+				047D32D01CD2F32C002D91CD /* Michael.jpg */,
+				047D32C61CD2F2F7002D91CD /* Queen - We Will Rock You.mp3 */,
+				047D32D21CD2F332002D91CD /* Queen.jpg */,
+				047D32C81CD2F2FC002D91CD /* Zaz - Paris Sera Toujours Paris.mp3 */,
+				047D32D41CD2F337002D91CD /* Zaz.jpg */,
 			);
 			path = MusicPlayer;
 			sourceTree = "<group>";
@@ -229,9 +265,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047D32D51CD2F337002D91CD /* Zaz.jpg in Resources */,
+				047D32C51CD2F2F3002D91CD /* Michael - Thriller.mp3 in Resources */,
+				047D32CB1CD2F31C002D91CD /* Elvis.jpg in Resources */,
+				047D32D31CD2F332002D91CD /* Queen.jpg in Resources */,
+				047D32C91CD2F2FC002D91CD /* Zaz - Paris Sera Toujours Paris.mp3 in Resources */,
+				047D32C11CD2F2E0002D91CD /* Frank - Theme from New York, New York.mp3 in Resources */,
+				047D32D11CD2F32C002D91CD /* Michael.jpg in Resources */,
 				047D329B1CD2E1E4002D91CD /* LaunchScreen.storyboard in Resources */,
 				047D32981CD2E1E4002D91CD /* Assets.xcassets in Resources */,
 				047D32961CD2E1E4002D91CD /* Main.storyboard in Resources */,
+				047D32C71CD2F2F7002D91CD /* Queen - We Will Rock You.mp3 in Resources */,
+				047D32C31CD2F2EE002D91CD /* Luciano - La donna è mobile.mp3 in Resources */,
+				047D32CF1CD2F326002D91CD /* Luciano.jpg in Resources */,
+				047D32BF1CD2F2DB002D91CD /* Elvis - Hound Dog.mp3 in Resources */,
+				047D32CD1CD2F320002D91CD /* Frank.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
