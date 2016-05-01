@@ -12,6 +12,7 @@ import AVFoundation
 class ViewController: UIViewController {
 
     var canciones: Array<Array<String>> = Array<Array<String>>() // arreglo de arreglos // arreglo de arreglos para almacenar canciones
+    //var canciones1 = ["prueba"]
     var imagenes:[String] = ["Elvis.jpg","Frank.jpg", "Luciano.jpg", "Michael.jpg", "Queen.jpg", "Zaz.jpg"]
 
     override func viewDidLoad() {
@@ -172,16 +173,22 @@ class ViewController: UIViewController {
         
     }
     
-    
-    
-    
     @IBOutlet weak var controlVolumen: UISlider!
 
     @IBAction func volumen(sender: AnyObject) { // controlar el volumen
         reproductor.volume = controlVolumen.value
     }
-    
-    
+  
+    @IBAction func shuffleButton() {
+        musica  = Int(arc4random())%6
+        print("\(musica)")
+        tocarCancion()
+        /*musica = aleatorio
+        canciones1[aleatorio]*/
+        
+        
+    }
+
     
 }
 

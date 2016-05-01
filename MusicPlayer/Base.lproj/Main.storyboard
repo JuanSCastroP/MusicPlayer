@@ -24,20 +24,20 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="duv-Rj-8Ii">
-                                <rect key="frame" x="0.0" y="49" width="320" height="216"/>
+                                <rect key="frame" x="0.0" y="43" width="320" height="216"/>
                                 <connections>
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="mbW-zD-jQ3"/>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="sIY-uX-Web"/>
                                 </connections>
                             </pickerView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y1T-30-zRi">
-                                <rect key="frame" x="40" y="273" width="240" height="21"/>
+                                <rect key="frame" x="40" y="267" width="240" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g9e-YM-O1i">
-                                <rect key="frame" x="80" y="302" width="160" height="160"/>
+                                <rect key="frame" x="80" y="296" width="160" height="160"/>
                             </imageView>
                             <slider opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="NbU-ZN-U4D">
                                 <rect key="frame" x="102" y="530" width="118" height="31"/>
@@ -50,17 +50,25 @@
                                 <segments>
                                     <segment title="Pause"/>
                                     <segment title="Play"/>
-                                    <segment title="Pause"/>
+                                    <segment title="Stop"/>
                                 </segments>
                                 <connections>
                                     <action selector="controlPlayer:" destination="BYZ-38-t0r" eventType="valueChanged" id="hNl-Ni-Gph"/>
                                 </connections>
                             </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gyO-8c-Uy0">
+                                <rect key="frame" x="132" y="464" width="58" height="30"/>
+                                <state key="normal" title="Shuffle"/>
+                                <connections>
+                                    <action selector="shuffleButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="YV3-1M-QCw"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Y1T-30-zRi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HPA-6v-Yem"/>
                             <constraint firstItem="duv-Rj-8Ii" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Hvo-jL-1dT"/>
+                            <constraint firstItem="gyO-8c-Uy0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ncq-2K-K71"/>
                             <constraint firstItem="6b4-Mv-txg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QRp-dw-bjB"/>
                             <constraint firstItem="g9e-YM-O1i" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eO2-r6-gE1"/>
                             <constraint firstItem="NbU-ZN-U4D" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rLd-Q5-haP"/>
@@ -75,7 +83,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="153" y="284"/>
+            <point key="canvasLocation" x="83" y="236"/>
         </scene>
     </scenes>
 </document>
