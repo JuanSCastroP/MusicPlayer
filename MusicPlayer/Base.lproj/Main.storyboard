@@ -58,7 +58,10 @@
                             </segmentedControl>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gyO-8c-Uy0">
                                 <rect key="frame" x="132" y="464" width="58" height="30"/>
-                                <state key="normal" title="Shuffle"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Shuffle">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="shuffleButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="YV3-1M-QCw"/>
                                 </connections>
