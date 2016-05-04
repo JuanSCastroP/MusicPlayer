@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         // canciones que van en el picker
         canciones.append(["Elvis - Hound Dog"])
         canciones.append(["Frank - Theme from New York, New York"])
-        canciones.append(["Luciano - La donna è mobile"])
+        canciones.append(["Luciano - La donna e mobile"])
         canciones.append(["Michael - Thriller"])
         canciones.append(["Queen - We Will Rock You"])
         canciones.append(["Zaz - Paris Sera Toujours Paris"])
@@ -96,7 +96,7 @@ class ViewController: UIViewController {
             print("Ha seleccionado -> Luciano - La donna è mobile")
             mostrarCaratula.image = UIImage(named: "Luciano.jpg")
             mostrarTitulo.text = "Luciano - La donna è mobile"
-            let sonidoURL = NSBundle.mainBundle().URLForResource("Luciano - La donna è mobile", withExtension: "mp3") // convierte el path
+            let sonidoURL = NSBundle.mainBundle().URLForResource("Luciano - La donna e mobile", withExtension: "mp3") // convierte el path
             do{
                 try reproductor = AVAudioPlayer(contentsOfURL: sonidoURL!)
                 if !reproductor.playing{// reproduce cancion

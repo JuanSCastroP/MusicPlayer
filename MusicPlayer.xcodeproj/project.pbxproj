@@ -16,7 +16,7 @@
 		047D32B11CD2E1E4002D91CD /* MusicPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D32B01CD2E1E4002D91CD /* MusicPlayerUITests.swift */; };
 		047D32BF1CD2F2DB002D91CD /* Elvis - Hound Dog.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 047D32BE1CD2F2DB002D91CD /* Elvis - Hound Dog.mp3 */; };
 		047D32C11CD2F2E0002D91CD /* Frank - Theme from New York, New York.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 047D32C01CD2F2E0002D91CD /* Frank - Theme from New York, New York.mp3 */; };
-		047D32C31CD2F2EE002D91CD /* Luciano - La donna è mobile.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 047D32C21CD2F2EE002D91CD /* Luciano - La donna è mobile.mp3 */; };
+		047D32C31CD2F2EE002D91CD /* Luciano - La donna e mobile.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 047D32C21CD2F2EE002D91CD /* Luciano - La donna e mobile.mp3 */; };
 		047D32C51CD2F2F3002D91CD /* Michael - Thriller.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 047D32C41CD2F2F3002D91CD /* Michael - Thriller.mp3 */; };
 		047D32C71CD2F2F7002D91CD /* Queen - We Will Rock You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 047D32C61CD2F2F7002D91CD /* Queen - We Will Rock You.mp3 */; };
 		047D32C91CD2F2FC002D91CD /* Zaz - Paris Sera Toujours Paris.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 047D32C81CD2F2FC002D91CD /* Zaz - Paris Sera Toujours Paris.mp3 */; };
@@ -61,7 +61,7 @@
 		047D32B21CD2E1E4002D91CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		047D32BE1CD2F2DB002D91CD /* Elvis - Hound Dog.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Elvis - Hound Dog.mp3"; sourceTree = "<group>"; };
 		047D32C01CD2F2E0002D91CD /* Frank - Theme from New York, New York.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Frank - Theme from New York, New York.mp3"; sourceTree = "<group>"; };
-		047D32C21CD2F2EE002D91CD /* Luciano - La donna è mobile.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Luciano - La donna è mobile.mp3"; sourceTree = "<group>"; };
+		047D32C21CD2F2EE002D91CD /* Luciano - La donna e mobile.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Luciano - La donna e mobile.mp3"; sourceTree = "<group>"; };
 		047D32C41CD2F2F3002D91CD /* Michael - Thriller.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Michael - Thriller.mp3"; sourceTree = "<group>"; };
 		047D32C61CD2F2F7002D91CD /* Queen - We Will Rock You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Queen - We Will Rock You.mp3"; sourceTree = "<group>"; };
 		047D32C81CD2F2FC002D91CD /* Zaz - Paris Sera Toujours Paris.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Zaz - Paris Sera Toujours Paris.mp3"; sourceTree = "<group>"; };
@@ -131,7 +131,7 @@
 				047D32CA1CD2F31C002D91CD /* Elvis.jpg */,
 				047D32C01CD2F2E0002D91CD /* Frank - Theme from New York, New York.mp3 */,
 				047D32CC1CD2F320002D91CD /* Frank.jpg */,
-				047D32C21CD2F2EE002D91CD /* Luciano - La donna è mobile.mp3 */,
+				047D32C21CD2F2EE002D91CD /* Luciano - La donna e mobile.mp3 */,
 				047D32CE1CD2F326002D91CD /* Luciano.jpg */,
 				047D32C41CD2F2F3002D91CD /* Michael - Thriller.mp3 */,
 				047D32D01CD2F32C002D91CD /* Michael.jpg */,
@@ -276,7 +276,7 @@
 				047D32981CD2E1E4002D91CD /* Assets.xcassets in Resources */,
 				047D32961CD2E1E4002D91CD /* Main.storyboard in Resources */,
 				047D32C71CD2F2F7002D91CD /* Queen - We Will Rock You.mp3 in Resources */,
-				047D32C31CD2F2EE002D91CD /* Luciano - La donna è mobile.mp3 in Resources */,
+				047D32C31CD2F2EE002D91CD /* Luciano - La donna e mobile.mp3 in Resources */,
 				047D32CF1CD2F326002D91CD /* Luciano.jpg in Resources */,
 				047D32BF1CD2F2DB002D91CD /* Elvis - Hound Dog.mp3 in Resources */,
 				047D32CD1CD2F320002D91CD /* Frank.jpg in Resources */,
@@ -530,6 +530,7 @@
 				047D32B71CD2E1E4002D91CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		047D32B81CD2E1E4002D91CD /* Build configuration list for PBXNativeTarget "MusicPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +539,7 @@
 				047D32BA1CD2E1E4002D91CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		047D32BB1CD2E1E4002D91CD /* Build configuration list for PBXNativeTarget "MusicPlayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +548,7 @@
 				047D32BD1CD2E1E4002D91CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
